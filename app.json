@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indexB/indexB",
+    "pages/indexC/indexC",
+    "pages/indexD/indexD",
+    "pages/articles/articleA1/a1"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#3997b3",
+    "navigationBarTitleText": "天下事件簿 · 资讯",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "top",
+    "color": "#d0d0d0",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#3997b3",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "财经"
+    }, {
+      "pagePath": "pages/indexB/indexB",
+      "text": "科技"
+    }, {
+      "pagePath": "pages/indexC/indexC",
+      "text": "体育"
+    }, {
+      "pagePath": "pages/indexD/indexD",
+      "text": "其他"
+    }]
+  }
+}

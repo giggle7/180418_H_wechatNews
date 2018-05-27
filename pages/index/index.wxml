@@ -1,0 +1,61 @@
+<view class="article1" bindtap='onTapArticle1'>
+  
+  <image class="article1-pic" src="{{ newsList[0].firstImage }}"></image>
+  <image class="article1-pic-bg" src="{{ newsList[0].firstImage }}" mode="scaleToFill"></image>
+
+  <view class="article1-text">
+    <view class="article1-title">{{ newsList[0].title }}</view>
+    <view class="article1-subtitle">
+      <view class="article1-writer">{{ newsList[0].source }}</view>
+      <view class="article1-time">{{ newsList[0].date }}</view>
+    </view>
+  </view>
+</view>
+
+<view class="article2" bindtap='onTapArticle2'>
+  <view class="article2-text">
+    <view class="article2-title">{{ newsList[1].title }}</view>
+    <view class="article2-subtitle">
+      <view class="article2-writer">{{ newsList[1].source }}</view>
+      <view class="article2-time">{{ newsList[1].date }}</view>
+    </view>
+  </view>
+  <image class="article2-pic" src="{{ newsList[1].firstImage }}" mode="scaleToFill"></image>
+</view>
+
+<view class="article3"  bindtap='onTapArticle3'>
+  <view class="article3-text">
+    <view class="article3-title">{{ newsList[2].title }}</view>
+    <view class="article3-subtitle">
+      <view class="article3-writer">{{ newsList[2].source }}</view>
+      <view class="article3-time">{{ newsList[2].date }}</view>
+    </view>
+  </view>
+  <image class="article3-pic" src="{{ newsList[2].firstImage }}" mode="scaleToFill"></image>
+</view>
+
+<view class="article4"  bindtap='onTapArticle4'>
+  <view class="article4-text">
+    <view class="article4-title">{{ newsList[0].title }}</view>
+    <view class="article4-subtitle">
+      <view class="article4-writer">{{ newsList[0].source }}</view>
+      <view class="article4-time">{{ newsList[0].date }}</view>
+    </view>
+  </view>
+  <image class="article4-pic" src="{{ newsList[0].firstImage }}" mode="scaleToFill"></image>
+</view>
+
+<view class="article5"  bindtap='onTapArticle5'>
+  <view class="article5-text">
+    <view class="article5-title">{{ newsList[1].title }}</view>
+    <view class="article5-subtitle">
+      <view class="article5-writer">{{ newsList[1].source }}</view>
+      <view class="article5-time">{{ newsList[1].date }}</view>
+    </view>
+  </view>
+  <image class="article5-pic" src="{{ newsList[1].firstImage }}" mode="scaleToFill"></image>
+</view>
+
+ <view class="bottom">
+    <view class="bottom-tips">··· 已经刷到底啦 :D ···</view>
+</view>

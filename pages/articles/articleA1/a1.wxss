@@ -1,0 +1,36 @@
+.article-page {
+  margin: 0 40rpx;
+}
+
+.title {
+  margin-top: 50rpx;
+  font-size: 50rpx;
+  line-height: 70rpx;
+}
+.subtitle {
+  padding-top: 15rpx;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  color: grey;
+}
+.subtitle-text {
+  display: flex;
+}
+.time {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10rpx;
+}
+
+.article-text {
+  padding-top: 20rpx;
+  padding-bottom: 80rpx;
+  font-size: 30rpx;
+  line-height: 45rpx;
+}
+.pic {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  height: 400rpx;
+  width: 660rpx;
+}

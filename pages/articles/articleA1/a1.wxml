@@ -1,0 +1,20 @@
+<view class="article-page">
+  <view class="title">
+    {{ newsDetail.title }}
+  </view>
+
+  <view class="subtitle">
+    <view class="subtitle-text">
+      <view class="writer">{{ newsDetail.source }}</view>
+      <view class="time">{{ newsDetail.date }}</view>
+    </view>
+    <view class="read">{{ newsDetail.readCount }}</view>
+  </view>
+
+  <view class="article-text">
+    <p>{{ newsDetail.content[0].text }}</p>
+    <image class="pic" src="{{ newsDetail.firstImage }}" mode="scaleToFill">
+    </image>
+    <p>{{ newsDetail.content[1].text }}</p>
+  </view>
+</view>
