@@ -82,13 +82,10 @@ Page({
               source: news.source,
               firstImage: news.firstImage,
               firstImage: !!news.firstImage ? news.firstImage : '/images/a1p1.jpeg',
-              //date: news.date
               date: util.formatTime(new Date(news.date))
             })
           })
           this.setData({ newsList })
-          //this.setData({ newsList }, callbackWrap)
-          //callbackWrap()
         }
       },
     })
