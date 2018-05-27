@@ -1,2 +1,2 @@
-# 180418_H_wechatNews
+# 180526_wechatNews
 udacity_miniProgram
